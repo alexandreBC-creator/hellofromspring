@@ -1,5 +1,5 @@
-FROM eclipse-temurin:17-jdk-alpine
-VOLUME /tmp
+FROM openjdk:11
 ARG JAR_FILE
-COPY ${JAR_FILE} app.jar
+COPY target/hello-from-spring-0.0.1-SNAPSHOT.jar /app.jar
+EXPOSE 8080
 ENTRYPOINT ["java","-jar","/app.jar"]
