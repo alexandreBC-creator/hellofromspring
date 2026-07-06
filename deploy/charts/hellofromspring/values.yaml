@@ -5,7 +5,7 @@ replicaCount: 1
 
 image:
   repository: hello-from-spring
-  tag: "0.0.1-SNAPSHOT"
+  tag: "sha-5de68a8ad6c19916292483fc9d2e86f4ab7cc2af"
   pullPolicy: IfNotPresent
 
 service:
