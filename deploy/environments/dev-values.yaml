@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: hello-from-spring
+  repository: ghcr.io/alexandrebc-creator/hello-from-spring
   tag: sha-5de68a8ad6c19916292483fc9d2e86f4ab7cc2af
 
 service:
