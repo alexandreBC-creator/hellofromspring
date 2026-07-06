@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: meu-registro/meu-app
-  tag: v1.0.0 # O seu CI vai atualizar essa linha a cada commit na master
+  repository: hello-from-spring
+  tag: sha-5de68a8ad6c19916292483fc9d2e86f4ab7cc2af
 
 service:
   port: 8080
