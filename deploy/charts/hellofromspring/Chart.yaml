@@ -1,0 +1,13 @@
+apiVersion: v2
+name: hellofromspring
+description: Helm chart for the hello-from-spring application
+type: application
+version: 0.1.0
+appVersion: "0.0.1-SNAPSHOT"
+keywords:
+  - spring
+  - java
+  - hello
+maintainers:
+  - name: default
+    email: example@example.com

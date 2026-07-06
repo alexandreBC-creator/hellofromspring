@@ -1,0 +1,8 @@
+replicaCount: 1
+
+image:
+  repository: meu-registro/meu-app
+  tag: v1.0.0 # O seu CI vai atualizar essa linha a cada commit na master
+
+service:
+  port: 8080
